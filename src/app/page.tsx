@@ -1,5 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
+import AskBhumi from "@/components/ai/AskBhumi";
+import LandIntelligencePreview from "@/components/map/LandIntelligencePreview";
 
 export default function Home() {
   return (
@@ -8,6 +10,10 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
+
+      <AskBhumi />
+
+      <LandIntelligencePreview />
     </main>
   );
 }
